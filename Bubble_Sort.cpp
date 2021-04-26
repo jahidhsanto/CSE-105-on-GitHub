@@ -26,7 +26,11 @@ int main()
         for (int i = 0; i < n - 1; i++)
             // Compare between two integers.
             if (arr[i] > arr[i + 1])
+            {
                 swap(i, arr);
+                break;
+            }
+        break;
     }
     cout << "The sorted array: ";
     for (int i = 0; i < n; i++)
