@@ -1,3 +1,0 @@
-swap(i, arr);
-                exit;
-            
